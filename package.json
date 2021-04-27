@@ -1,0 +1,19 @@
+{
+  "name": "emmet-snippet-generator",
+  "version": "1.0.0",
+  "description": "Generates a snippets.json with SRI",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwboyd/emmet-snippets.git"
+  },
+  "author": "cwboyd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwboyd/emmet-snippets/issues"
+  },
+  "homepage": "https://github.com/cwboyd/emmet-snippets#readme"
+}
