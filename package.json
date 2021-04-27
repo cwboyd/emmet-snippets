@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/cwboyd/emmet-snippets/issues"
   },
-  "homepage": "https://github.com/cwboyd/emmet-snippets#readme"
+  "homepage": "https://github.com/cwboyd/emmet-snippets#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "js-sha512": "^0.8.0",
+    "sync-fetch": "^0.3.0"
+  }
 }
