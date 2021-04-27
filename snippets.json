@@ -8,19 +8,23 @@
       "link:fa-css": "link-xo-anon[href='https://use.fontawesome.com/releases/v5.15.2/css/all.css' integrity='sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu']",
       "link:jq-ui-css": "link-xo-anon[href='https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.css' integrity='sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==']",
       "link:jq-ui-theme-css": "link-xo-anon[href='https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.theme.css' integrity='sha512-KdxWQx+7q6Vn9y/vKlJa3GysrGTcs8O3SAvVVGhpU2iB/LvlrZWe+6bl9+BM0eEJVI/dUlcskM5jYbz7b5hGMA==']",
+      "link:mdc-css": "link-xo-anon[href='https://cdn.jsdelivr.net/npm/material-components-web@11.0.0/dist/material-components-web.min.css' integrity='sha512-SkfSG6W4WdD8DjVdJf+n3+gFqzOq7/LaohCSMyMKRm5+ad0xYCnVE1LeEtpCm/JI9B3OxlREPRHX86oxKTg7yw==']",
       "script:bs": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js' integrity='sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf']",
       "script:jquery": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==']",
       "script:jquery-ui": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js' integrity='sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==']",
+      "script:mdc": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/material-components-web@11.0.0/dist/material-components-web.min.js' integrity='sha512-oEIwIw0lBpt7kQn5OnE/5Hp5/SI/UbmBmrXj5EDeJSe2pYhGkyZhyCrxfrcjVytr5BPeylirRhPlSwoOMMNhKg==']",
       "doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+style)+body",
       "doc:bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:bs+style)+body",
       "doc:jquery": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+script:jquery+style)+body",
       "doc:jquery-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:jquery+script:bs+style)+body",
       "doc:jquery-ui": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:jq-ui-css+link:jq-ui-theme-css+script:jquery+style)+body",
+      "doc:mdc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:mdc-css+script:mdc+style)+body",
       "!s": "!!!+doc>script",
       "!b": "!!!+doc:bootstrap>script",
       "!j": "!!!+doc:jquery>script",
       "!jb": "!!!+doc:jquery-bootstrap>script",
-      "!j-ui": "!!!+doc:jquery-ui>script"
+      "!j-ui": "!!!+doc:jquery-ui>script",
+      "!mdc": "!!!+doc:mdc>script"
     }
   }
 }
