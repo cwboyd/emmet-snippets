@@ -27,6 +27,10 @@
         "template": "link-xo-anon[href='$url' integrity='$sri']",
         "source": "https://cdn.jsdelivr.net/npm/material-components-web@11.0.0/dist/material-components-web.min.css"
       },
+      "script:angularjs": {
+        "template": "script-xo-anon[src='$url' integrity='$sri']",
+        "source": "https://cdn.jsdelivr.net/npm/angular@1.8.2/angular.min.js"
+      },
       "script:bs": {
         "template": "script-xo-anon[src='$url' integrity='$sri']",
         "source": "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
@@ -44,11 +48,17 @@
         "source": "https://cdn.jsdelivr.net/npm/material-components-web@11.0.0/dist/material-components-web.min.js"
       },
       "doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+style)+body",
+      "doc:angularjs-bootstrap-jquery": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:bs+script:jquery+style+script:angularjs+style)+body",
+      "doc:angularjs-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:bs+script:angularjs+style)+body",
+      "doc:angularjs-jquery": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+script:jquery+style+script:angularjs+style)+body",
       "doc:bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:bs+style)+body",
       "doc:jquery": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+script:jquery+style)+body",
       "doc:jquery-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:jquery+script:bs+style)+body",
       "doc:jquery-ui": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:jq-ui-css+link:jq-ui-theme-css+script:jquery+style)+body",
       "doc:mdc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:mdc-css+script:mdc+style)+body",
+      "!angularjs-jb": "!!!+doc:angularjs-bootstrap-jquery",
+      "!angularjs-b": "!!!+doc:angularjs-bootstrap",
+      "!angularjs-j": "!!!+doc:angularjs-jquery",
       "!s": "!!!+doc>script",
       "!b": "!!!+doc:bootstrap>script",
       "!j": "!!!+doc:jquery>script",
