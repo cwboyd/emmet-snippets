@@ -47,7 +47,7 @@ try
     });
 
     // Write object with expanded templates back out, respecting whitespace.
-    fs.writeFile('snippets.json', JSON.stringify(sources, null, 2)+"\n\n", errorRethrower);
+    fs.writeFile('snippets.json', JSON.stringify(sources, null, 2), errorRethrower);
   });
 }
 catch (e)
