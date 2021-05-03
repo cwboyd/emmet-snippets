@@ -10,6 +10,7 @@
       "link:jq-ui-theme-css": "link-xo-anon[href='https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.theme.css' integrity='sha512-KdxWQx+7q6Vn9y/vKlJa3GysrGTcs8O3SAvVVGhpU2iB/LvlrZWe+6bl9+BM0eEJVI/dUlcskM5jYbz7b5hGMA==']",
       "link:mdc-css": "link-xo-anon[href='https://cdn.jsdelivr.net/npm/material-components-web@11.0.0/dist/material-components-web.min.css' integrity='sha512-SkfSG6W4WdD8DjVdJf+n3+gFqzOq7/LaohCSMyMKRm5+ad0xYCnVE1LeEtpCm/JI9B3OxlREPRHX86oxKTg7yw==']",
       "script:angularjs": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/angular@1.8.2/angular.min.js' integrity='sha512-7oYXeK0OxTFxndh0erL8FsjGvrl2VMDor6fVqzlLGfwOQQqTbYsGPv4ZZ15QHfSk80doyaM0ZJdvkyDcVO7KFA==']",
+      "script:babel": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/@babel/standalone@7.14.0/babel.min.js' integrity='sha512-ErHPEta/jQWwe1JMFqecwHveRFQok1HnuXKE80tPWzOgZGHpjL9iyE+eL200U9eoegxx1ysG6Q1o5j1fzMYiYg==']",
       "script:bs": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js' integrity='sha512-DSdiuNZtfUhehZHXtit9Sa/83i06YSnvT8Js8drwdkVCDMk3JwpIxdhf2oRUByUDB3wguN2iAzoTNfxFAuqGyA==']",
       "script:jquery": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==']",
       "script:jquery-ui": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js' integrity='sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==']",
@@ -26,7 +27,7 @@
       "doc:jquery-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:jquery+script:bs+style)+body",
       "doc:jquery-ui": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:jq-ui-css+link:jq-ui-theme-css+script:jquery+style)+body",
       "doc:mdc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:mdc-css+script:mdc+style)+body",
-      "doc:react-jquery-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:jquery+script:bs+script:react+script:react-dom+style)+body",
+      "doc:react-jquery-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:jquery+script:bs+script:babel+script:react+script:react-dom+style)+body",
       "!angularjs-jb": "!!!+doc:angularjs-bootstrap-jquery>script",
       "!angularjs-b": "!!!+doc:angularjs-bootstrap>script",
       "!angularjs-j": "!!!+doc:angularjs-jquery>script",
@@ -36,7 +37,7 @@
       "!jb": "!!!+doc:jquery-bootstrap>script",
       "!j-ui": "!!!+doc:jquery-ui>script",
       "!mdc": "!!!+doc:mdc>script",
-      "!react-jb": "!!!+doc:react-jquery-bootstrap>script"
+      "!react-jb": "!!!+doc:react-jquery-bootstrap>script[type='text/babel']"
     }
   }
 }
