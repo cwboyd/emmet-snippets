@@ -47,6 +47,10 @@
         "template": "script-xo-anon[src='$url' integrity='$sri']",
         "source": "https://cdn.jsdelivr.net/npm/material-components-web@11.0.0/dist/material-components-web.min.js"
       },
+      "script:vuejs": {
+        "template": "script-xo-anon[src='$url' integrity='$sri']",
+        "source": "https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"
+      },
       "doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+style)+body",
       "doc:angularjs-bootstrap-jquery": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:bs+script:jquery+script:angularjs+style)+body",
       "doc:angularjs-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:bs+script:angularjs+style)+body",

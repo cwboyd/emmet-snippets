@@ -14,6 +14,7 @@
       "script:jquery": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==']",
       "script:jquery-ui": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js' integrity='sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==']",
       "script:mdc": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/material-components-web@11.0.0/dist/material-components-web.min.js' integrity='sha512-oEIwIw0lBpt7kQn5OnE/5Hp5/SI/UbmBmrXj5EDeJSe2pYhGkyZhyCrxfrcjVytr5BPeylirRhPlSwoOMMNhKg==']",
+      "script:vuejs": "script-xo-anon[src='https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js' integrity='sha512-BKbSR+cfyxLdMAsE0naLReFSLg8/pjbgfxHh/k/kUC82Hy7r6HtR5hLhobaln2gcTvzkyyehrdREdjpsQwy2Jw==']",
       "doc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+style)+body",
       "doc:angularjs-bootstrap-jquery": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:bs+script:jquery+script:angularjs+style)+body",
       "doc:angularjs-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:bs+script:angularjs+style)+body",
