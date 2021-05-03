@@ -47,6 +47,14 @@
         "template": "script-xo-anon[src='$url' integrity='$sri']",
         "source": "https://cdn.jsdelivr.net/npm/material-components-web@11.0.0/dist/material-components-web.min.js"
       },
+      "script:react": {
+        "template": "script-xo-anon[src='$url' integrity='$sri']",
+        "source": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js"
+      },
+      "script:react-dom": {
+        "template": "script-xo-anon[src='$url' integrity='$sri']",
+        "source": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js"
+      },
       "script:vuejs": {
         "template": "script-xo-anon[src='$url' integrity='$sri']",
         "source": "https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"
@@ -60,15 +68,17 @@
       "doc:jquery-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:jquery+script:bs+style)+body",
       "doc:jquery-ui": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:jq-ui-css+link:jq-ui-theme-css+script:jquery+style)+body",
       "doc:mdc": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:mdc-css+script:mdc+style)+body",
+      "doc:react-jquery-bootstrap": "html[lang=${lang}]>(head>meta[charset=${charset}]+meta:vp+title{${1:Document}}+link:bs-icons+link:fa-css+link:bs-css+script:jquery+script:bs+script:react+script:react-dom+style)+body",
       "!angularjs-jb": "!!!+doc:angularjs-bootstrap-jquery>script",
       "!angularjs-b": "!!!+doc:angularjs-bootstrap>script",
       "!angularjs-j": "!!!+doc:angularjs-jquery>script",
-      "!s": "!!!+doc>script",
       "!b": "!!!+doc:bootstrap>script",
+      "!s": "!!!+doc>script",
       "!j": "!!!+doc:jquery>script",
       "!jb": "!!!+doc:jquery-bootstrap>script",
       "!j-ui": "!!!+doc:jquery-ui>script",
-      "!mdc": "!!!+doc:mdc>script"
+      "!mdc": "!!!+doc:mdc>script",
+      "!react-jb": "!!!+doc:react-jquery-bootstrap>script"
     }
   }
 }
