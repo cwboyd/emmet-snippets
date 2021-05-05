@@ -1,6 +1,5 @@
 
 const fs = require('fs');
-const child_process = require('child_process');
 const fetch = require('sync-fetch');
 const sha512 = require('js-sha512').sha512;
 const buffer = require('buffer');
